@@ -1,1 +1,36 @@
+# Core Dependencies
+streamlit>=1.28.0
+python-multipart>=0.0.6
 
+# Audio Processing & Transcription
+openai-whisper>=20231117
+ffmpeg-python>=0.2.0
+
+# AI/ML Models
+transformers>=4.35.0
+torch>=2.1.0
+sentencepiece>=0.1.99
+protobuf>=3.20.0
+
+# PDF Generation
+fpdf2>=2.7.6
+
+# Data Processing
+pandas>=2.0.0
+numpy>=1.24.0
+
+# Utilities
+python-dateutil>=2.8.2
+pytz>=2023.3
+
+# Optional: GPU Support (uncomment if using CUDA)
+# torch>=2.1.0+cu118 -f https://download.pytorch.org/whl/torch_stable.html
+
+# Optional: Performance Optimization
+# numba>=0.58.0
+# scipy>=1.11.0
+
+# Development Dependencies (optional)
+# pytest>=7.4.0
+# black>=23.11.0
+# flake8>=6.1.0

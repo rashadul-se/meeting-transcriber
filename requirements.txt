@@ -5,6 +5,7 @@ python-multipart>=0.0.6
 # Audio Processing & Transcription
 openai-whisper>=20231117
 ffmpeg-python>=0.2.0
+imageio-ffmpeg>=0.4.9  # Bundled FFmpeg for Python
 
 # AI/ML Models
 transformers>=4.35.0
